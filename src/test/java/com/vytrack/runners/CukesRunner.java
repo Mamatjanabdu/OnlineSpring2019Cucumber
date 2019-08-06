@@ -9,13 +9,15 @@ import org.junit.runner.RunWith;
         features = {
             "src/test/resources/features" //to specify where are the features
         },
+
+        tags = "@Login",
         //feature contains scenarios
         //every scenario is like a test
         //where is the implementation for features
         glue = {"com/vytrack/step_definitions/LoginStepDefinitions.java"},
         //dry tun - to generate step definitions automatically
         //you will see them in the console output
-        dryRun = true
+        dryRun = false
 
 )
 public class CukesRunner {
