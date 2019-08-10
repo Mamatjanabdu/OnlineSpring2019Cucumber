@@ -64,4 +64,9 @@ public class LoginPage {
     public void goToLandingPage(){
         Driver.getDriver().get(ConfigurationReader.getProperty("url"+ConfigurationReader.getProperty("environment")));
     }
+
+
+    public void goToLandingPage(){
+        Driver.getDriver().get(ConfigurationReader.getProperty("url"+ConfigurationReader.getProperty("environment")));
+    }
 }
