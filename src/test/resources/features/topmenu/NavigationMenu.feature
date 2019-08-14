@@ -1,7 +1,6 @@
-@navigation
-Feature: Navigation menu options
-  As user I want to use top menu for navigation
-
+Feature: Navigation menu Options
+  As user i want to user top menu for navigation
+  @navigate
   Scenario: Login as driver and navigate to the Vehicles
     Given user is on the landing page
     When user logs in as a "driver"
